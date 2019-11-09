@@ -72,7 +72,7 @@ $> make
 $> ./environment 
 ```
 
-If all goes well, you will see a window pop up with an animation of the modified point cloud that looks similar to the graphic at the top of this readme.
+If all goes well, you will see a window pop up with an animation of the ego car in traffic that looks similar to the graphic at the top of this readme.
 
 ## Discussion
 
