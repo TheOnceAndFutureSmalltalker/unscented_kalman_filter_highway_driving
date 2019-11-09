@@ -73,3 +73,9 @@ $> ./environment
 ```
 
 If all goes well, you will see a window pop up with an animation of the modified point cloud that looks similar to the graphic at the top of this readme.
+
+## Discussion
+
+The Unscented Kalman Filter generates estimates of the other car's positions and velocities which are better than the measurements provided by either the radar or lidar.  Predictions of the other cars' motions are made using the CTRV, or constant turn rate and velocity, model. 
+
+The Unscented Kalman Filter improves upon the Extended Kalman Filter in that the linear approximation provided by the EKF may not be adequate and calculating a Jocabian matrix is no longer required. Instead, the prediction is based on a sample of the current state. These sample points are called sigma points. The sigma points can then be tranformed into the measurement space and a new mean and covariance matrix calculated. From this the new prediction is made and then combined with the new measurements. The Unscented Kalman Filter also improves in overall error.
