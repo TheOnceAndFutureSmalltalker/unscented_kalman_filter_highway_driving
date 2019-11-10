@@ -65,7 +65,7 @@ To acquire, compile, and run the project in Ubuntu, follow the statements below.
 
 ```bash
 $> git clone https://github.com/TheOnceAndFutureSmalltalker/unscented_kalman_filter_highway_driving.git
-$> cd lidar_obstacle_detection
+$> cd unscented_kalman_filter_highway_driving
 $> mkdir build && cd build
 $> cmake ..
 $> make
