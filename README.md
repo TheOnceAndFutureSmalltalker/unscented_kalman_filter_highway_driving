@@ -1,6 +1,6 @@
 # Unscented Kalman Filter for Highway Driving
 
-This project implements an Unscented Kalman Filter in C++ and runs it against a simulation of radar and lidar measurements taken from an ego car as it travels down the highway. The animation below shows the ego car in green and the surrounding traffic in blue.  
+This project implements an Unscented Kalman Filter in C++ and runs it against a simulation of RADAR and LiDAR measurements taken from an ego car as it travels down the highway. The animation below shows the ego car in green and the surrounding traffic in blue.  
 
 
 <p align="center">
@@ -69,7 +69,7 @@ $> cd unscented_kalman_filter_highway_driving
 $> mkdir build && cd build
 $> cmake ..
 $> make
-$> ./environment 
+$> ./ukf_highway 
 ```
 
 If all goes well, you will see a window pop up with an animation of the ego car in traffic that looks similar to the graphic at the top of this readme.
